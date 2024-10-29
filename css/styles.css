@@ -11051,6 +11051,12 @@ body {
     outline: none;
     border-bottom: 0.25rem solid #64a19d;
   }
+  #mainNav .dropdown-toggle::after{
+	  border-top-color: #fff;
+  }
+  #mainNav.navbar-shrink .dropdown-toggle::after{
+	  border-top-color: #000;
+  }
 }
 
 .btn {
@@ -11069,7 +11075,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: url('../assets/img/bg.jpg');
+  background: url('../assets/img/bg2.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
